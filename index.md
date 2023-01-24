@@ -22,9 +22,9 @@ To set your account password:
 
 ##Connect to server via ssh
 Open terminal and run the following command
-> `ssh`__`<account name>`__.`@ieng6.ucsd.edu` 
+> `ssh`__`<account-name>`__`@ieng6.ucsd.edu` 
 
-where __`<account name>`__  is the cse14lw23.. found earlier.
+where __`<account-name>`__  is the cse14lw23.. found earlier.
 
 The terminal will then prompt you for your password. 
 If your password does not work, endsure it is typed correctly, wait longer for the password to activate, or reset it again (ensuring that the second option is set to __yes__).
@@ -35,10 +35,12 @@ If all is functioning, the following should appear allowing you to send commands
 ___
 ##Testing terminal commands
 
+The `pwd` command returns the current working directory, the folder I am currently accessing.
 Running the command `pwd` yields `/home/linux/ieng5/cse15lwi23/cs15lwi23arw`, my home directory.
 
 ![image](pwd.png)
 
+The `ls` command lists all the files and directories present in the current working directory.
 Running the command `ls` yields `perl5`, indicating that only one directory - perl5 - exists in the home directory.
 
 ![image](ls.png)
